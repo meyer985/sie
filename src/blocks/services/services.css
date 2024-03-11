@@ -1,0 +1,92 @@
+.services {
+  max-width: calc(100% - 96px);
+  margin: 0 48px;
+  display: flex;
+  flex-direction: row;
+}
+
+.services_image {
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  position: relative;
+  max-height: 800px;
+}
+
+.services_list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+/*  background-color: rgb(170,170,170,0.2);*/
+/*  margin-left: 20px;*/
+}
+
+.service_card {
+  height: 200px;
+ /* border-bottom: 1px solid rgb(59, 74, 105);*/
+
+}
+
+.service_card_last {
+/*  border-bottom: none;*/
+}
+
+/*
+.service_card_background {
+  background-color: rgb(93, 118, 166, 0.3);
+}
+*/
+
+
+
+.service_card_header {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 27px;
+  font-weight: normal;
+  color: rgb(59, 74, 105);
+  letter-spacing: 1px;
+
+}
+
+.service_card_text {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  padding-top: 25px;
+  color: rgb(59, 74, 105);
+  letter-spacing: 1px;
+}
+
+/*
+@media screen and (max-width: 1170px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .photo-grid {
+    max-width: calc(100% - 48px);
+    padding: 88px 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .photo-grid {
+    max-width: calc(100% - 32px);
+    padding: 64px 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+  }
+}
+*/
