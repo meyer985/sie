@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Route, Routes, useNavigate, Navigate } from "react-router-dom";
-import './App.css';
+
 import Header from "./Header/Header";
 import Cover from "./Cover/Cover";
 import Intro from "./Intro/Intro";
@@ -16,9 +16,9 @@ function App() {
 
   const [isEnglish, setLanguage]=useState(true)
   return (
-    <div className="App">
+    <div className="page">
       <Header isEnglish={isEnglish} changeLanguage={setLanguage}/>
-        <main>
+        <main className="mane">
           <Cover/>
           <Routes>
             <Route path="/" element={

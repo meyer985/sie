@@ -24,11 +24,11 @@
 @import url(./blocks/footer/__copyright/footer__copyright.css);
 @import url(./blocks/footer/__link-container/footer__link-container.css);
 @import url(./blocks/link/link.css);
-@import url(./blocks/body/body.css);
 @import url(./blocks/footer/__link/footer__link.css);
 @import url(./blocks/services/services.css);
 @import url(./blocks/contact/contact.css);
 @import url(./blocks/about/about.css);
 @import url(./blocks/solutions/solutions.css);
 @import url(./blocks/contacts/contacts.css);
+@import url(./blocks/main/main.css);
 

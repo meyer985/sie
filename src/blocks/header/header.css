@@ -1,13 +1,27 @@
 
 
 .header {
-  padding-top: 28px;
-  padding-bottom: 15px;
- /* max-width: calc(100% - 96px);*/
-  width: 1152px;
-  margin: 0 auto 25px;
+  width: 100%;
+  max-width: calc(1248px - 96px);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+}
+
+.header_content {
+  padding: 28px 0 25px;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(245,245,245, 0.4)
+}
+
+.underline {
+  margin-top: 10px;
+  width: 100%;
+  height:1px;
   border-bottom: 1px solid rgb(93, 118, 166);
 }
 
