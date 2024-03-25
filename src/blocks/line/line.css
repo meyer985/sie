@@ -1,0 +1,15 @@
+.grey_line {
+    height: 1px;
+    background-color: rgb(93, 118, 166);
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+
+
+@media screen and (max-width: 930px) {
+    .grey_line {
+        margin-bottom: 15px;
+    }
+}
+

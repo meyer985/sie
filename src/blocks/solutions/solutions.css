@@ -1,29 +1,23 @@
 .solutions {
-
-  margin: 0 48px;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid rgb(59, 74, 105);
   margin-top: 30px;
 }
 
 .serv {
-  flex-direction: column;
-
-}
-
-.serv_card {
-  display: flex;
-  flex-direction: row;
-  height: 250px;
- /* margin-bottom: 15px;*/
-  align-items: center;
-  justify-content: space-between;
-
+  display: grid;
+  /*grid-template-columns: repeat(3, calc(100%/3));*/
+  grid-template-columns: minmax(260px, calc(100%/3)) calc(100%/3) calc(100%/3);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  overflow: hidden;
 }
 
 .serv_card_background {
-  background-color: rgb(93, 118, 166, 0.2);
+/*  background-color: rgb(93, 118, 166, 0.2);*/
+  background-color: rgb(245, 245, 245);
+  padding-left: 10px;
 }
 
 .serv_text {
@@ -33,26 +27,27 @@
 
 }
 
-.services_image {
-  width: 500px;
-
-}
 
 .serv_header {
-  padding-left: 50px;
-  padding-right: 50px;
   font-size: 30px;
 }
 
-.serv_text  {
-
+.serv_textblock {
+  grid-column: span 2;
 }
 
 .serv_image {
-/*  max-width: 248px;*/
+  width: auto;
+  max-height: 250px;
   height: 100%;
-}
+  margin:0;
+  object-fit: contain;
+  overflow: hidden;
 
+}
+.img_wrapper {
+overflow: hidden;
+}
 .services_list2 {
   padding-left: 0;
   margin-left: 0;

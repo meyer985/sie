@@ -5,7 +5,7 @@ function Services() {
     return (
         <section className="services">
              <img className="services_image" src={vertical_parking}/>
-                     <div className="services_list">
+
                          <div className="service_card">
                              <h2 className="service_card_header">Export</h2>
                                 <p className="service_card_text">When exporting products from the Netherlands to non-European
@@ -29,7 +29,7 @@ function Services() {
                                 <p className="service_card_text">With an Origin Document, your customer can request a reduction on
                                  any import duties!</p>
                          </div>
-            </div>
+
 
 
     </section>

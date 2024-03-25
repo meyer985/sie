@@ -4,9 +4,23 @@
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1170px) {
+  .header__logo {
+    width: 104px;
+    height: 69px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .header__logo {
+    width: 79px;
+    height: 52px;
+  }
+}
+
 @media screen and (max-width: 670px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
-    }
+
+  }
 }

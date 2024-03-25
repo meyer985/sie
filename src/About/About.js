@@ -20,7 +20,7 @@ function About(props) {
                     douanecontroles.</p>
                 <p className="about_text">Wij staan klaar voor al uw douanezaken!</p>
             </div>
-            <div className="meet">
+         {/*   <div className="meet">
                 <h1 className="meet_text"> Our team </h1>
             </div>
             <div className="team">
@@ -59,7 +59,7 @@ function About(props) {
                     <p className="team_email">email@example.com</p>
 
                 </div>
-            </div>
+            </div>*/}
         </section>
     );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Route, Routes, useNavigate, Navigate } from "react-router-dom";
-
 import Header from "./Header/Header";
 import Cover from "./Cover/Cover";
 import Intro from "./Intro/Intro";
@@ -18,7 +17,7 @@ function App() {
   return (
     <div className="page">
       <Header isEnglish={isEnglish} changeLanguage={setLanguage}/>
-        <main className="mane">
+          <main className="main">
           <Cover/>
           <Routes>
             <Route path="/" element={
@@ -29,8 +28,14 @@ function App() {
               </>
             }/>
 
-            <Route path="/about" element={<About/>}/>
-            <Route path="/solutions" element={<Solutions/>}/>
+            <Route path="/about" element={<>
+                <About/>
+                <ContactLink/>
+            </>}/>
+            <Route path="/solutions" element={<>
+                <Solutions/>
+                <ContactLink/>
+            </>}/>
             <Route path="/contacts" element={<Contacts/>}/>
           </Routes>
 

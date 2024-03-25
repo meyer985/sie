@@ -10,10 +10,26 @@
   text-rendering: optimizeLegibility;
 }
 
+@media screen and (max-width: 1170px) {
+  .cover__title {
+    max-width: 80%;
+    font-size: 52px;
+    line-height: 1.1;
+  }
+}
+
 @media screen and (max-width: 670px) {
   .cover__title {
-    max-width: 288px;
-    font-size: 32px;
+    max-width: 80%;
+    font-size: 46px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__title {
+    max-width: 80%;
+    font-size: 30px;
     line-height: 1.1;
   }
 }
