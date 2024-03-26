@@ -1,10 +1,12 @@
 import React from "react";
 import footer_logo from "../images/footer.jpeg"
 
+
 function Footer(props) {
     return (
         <footer className="footer">
             <img className="footer_pic" src={footer_logo}/>
+            <div className="footer_cover"  ></div>
 
                 <div className="footer_info">
                     <div>
