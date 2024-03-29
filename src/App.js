@@ -28,11 +28,11 @@ function App() {
               </>
             }/>
 
-            <Route path="/about" element={<>
+            <Route path="/about/" element={<>
                 <About/>
                 <ContactLink/>
             </>}/>
-            <Route path="/solutions" element={<>
+            <Route path="/solutions/*" element={<>
                 <Solutions/>
                 <ContactLink/>
             </>}/>

@@ -79,3 +79,17 @@ padding: 8px;
   font-size: 18px;
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 1170px) {
+  .about_info {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+
+}
+
+@media screen and (max-width: 670px) {
+
+}
