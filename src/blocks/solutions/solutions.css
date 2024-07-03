@@ -7,11 +7,12 @@ margin: 30px auto 30px;
     grid-template-columns: 60% 40%;
     grid-template-rows: repeat(2, auto);
     grid-row-gap: 20px;
+    background-color: rgb(93, 118, 166, 0.3);
 }
 
 .solutions_export {
-    background-color: rgb(93, 118, 166, 0.5);
-   display: flex;
+    margin-top: 20px;
+    display: flex;
     flex-direction: column;
     padding: 20px 10px 20px 80px;
 }
@@ -20,12 +21,19 @@ margin: 30px auto 30px;
     background-color: inherit;
     border: 1px solid #2A2C2F;
     margin-left: 20px;
+    background-color: rgb(245,245,245);
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .solutions_transit {
     margin-left: 20px;
     background-color: inherit;
     border: 1px solid #2A2C2F;
+    background-color: rgb(245,245,245);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 80px;
 }
 
 .solutions_transit_img {
@@ -34,6 +42,9 @@ margin: 30px auto 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-left: 80px;
+
 }
 
 .solutions_header {

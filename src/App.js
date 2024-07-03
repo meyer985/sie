@@ -13,36 +13,36 @@ import Solutions from "./Solutions/Solutions";
 
 function App() {
 
-  const [isEnglish, setLanguage]=useState(true)
-  return (
-    <div className="page">
-      <Header isEnglish={isEnglish} changeLanguage={setLanguage}/>
-          <main className="main">
-          <Cover/>
-          <Routes>
-            <Route path="/" element={
-              <>
-                <Intro/>
-                <Services/>
-                <ContactLink/>
-              </>
-            }/>
+    const [isEnglish, setLanguage]=useState(true)
+    return (
+        <div className="page">
+            <Header isEnglish={isEnglish} changeLanguage={setLanguage}/>
+            <main className="main">
+                <Cover/>
+                <Routes>
+                    <Route path="/" element={
+                        <>
+                            <Intro/>
+                            <Services/>
+                            <ContactLink/>
+                        </>
+                    }/>
 
-            <Route path="/about/" element={<>
-                <About/>
-                <ContactLink/>
-            </>}/>
-            <Route path="/solutions/*" element={<>
-                <Solutions/>
-                <ContactLink/>
-            </>}/>
-            <Route path="/contacts" element={<Contacts/>}/>
-          </Routes>
+                    <Route path="/about" element={<>
+                        <About/>
+                        <ContactLink/>
+                    </>}/>
+                    <Route path="/solutions" element={<>
+                        <Solutions/>
+                        <ContactLink/>
+                    </>}/>
+                    <Route path="/contacts" element={<Contacts/>}/>
+                </Routes>
 
-        </main>
-      <Footer/>
-    </div>
-  );
+            </main>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

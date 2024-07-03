@@ -48,7 +48,7 @@ function Solutions(props) {
 
         <div className="solutions_transit_img"></div>
 
-        <div className="solutions_transit solutions_export">
+        <div className="solutions_transit">
             <h1 className="solutions_header">TRANSIT</h1>
             <p className="solutions_text">{trans}</p>
         </div>
